@@ -1,0 +1,79 @@
+#experience {
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.experienceDescription {
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.experienceTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.experienceSection {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  align-self: center;
+}
+
+.experienceCard {
+  box-sizing: border-box;
+  border: 0.1rem solid rgb(50, 50, 50);
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 20rem;
+}
+
+.experienceCard > h3 {
+  margin-bottom: 0.5rem;
+}
+
+.experienceCard > span {
+  color: #00c2ff;
+}
+
+.experienceCard > p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+
+@media screen and (max-width: 1020px) {
+  .experienceSection{
+    width: 90vw;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  #experience{
+    width: 155vw;
+  }
+  .experienceSection{
+    display: block;
+    margin-left: 6rem;
+  }
+  .experienceDescription{
+    margin: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 1080px) {
+  #experience{
+    width: 180vw;
+  }
+}

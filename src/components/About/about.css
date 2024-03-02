@@ -1,0 +1,99 @@
+#about{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.aboutTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.aboutDescription{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 70rem;
+    padding: 0 2rem;
+}
+
+.aboutBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.aboutBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+}
+
+.aboutBarImg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.aboutBarText >p {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 520px) {
+    .aboutBarText > p{
+        font-size: 3.5vw;
+    }
+
+    #about
+    {
+        width: 140vw;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #about
+    {
+        width: 170vw;
+    }
+    .aboutBarText > p{
+        font-size: 4.5vw;
+    }
+
+    .aboutBars{
+        width: 130vw;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #about{
+        width: 140vw;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    #about{
+        width: 150vw;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+    #about{
+        width: 181vw;
+    }
+}
