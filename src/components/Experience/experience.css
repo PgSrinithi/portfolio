@@ -64,7 +64,7 @@
   }
   .experienceSection{
     display: block;
-    margin-left: 6rem;
+    text-align: -webkit-center;
   }
   .experienceDescription{
     margin: 1rem;
