@@ -1,9 +1,9 @@
 import React from "react";
 import "./intro.css";
-import { Link } from "react-scroll";
-import btnImg from "../../assets/hireme.png";
-
+import download from "../../assets/download.png";
+import resume from "../../assets/Resume_Srinithi.pdf";
 const Intro = () => {
+ 
   return (
     <section id="intro">
       <div className="introContent">
@@ -18,12 +18,12 @@ const Intro = () => {
           <br /> experience in designing and implementing end-to-end solutions
           for web applications.
         </p>
-        <Link>
+        <a href={resume} download="Srinithi_Resume.pdf">
           <button className="btn">
-            <img src={btnImg} alt="Hire Me" className="btnImg" />
-            Hire Me
+            <img src={download} alt="Hire Me" className="btnImg"/>
+           <span>Download CV</span> 
           </button>
-        </Link>
+        </a>
       </div>
     </section>
   );

@@ -4,6 +4,7 @@ import Experience from "./components/Experience/experience";
 import Intro from "./components/Intro/intro";
 import Navbar from "./components/Navbar/navbar";
 import Skills from "./components/Skills/skills";
+import './style.css';
 
 function App() {
   return (

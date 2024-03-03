@@ -89,9 +89,9 @@ const Skills = () => {
       <div className="skillImages">
         {listOfSkillSets
           .slice(0, !isSeeMoreClicked ? 3 : listOfSkillSets?.length)
-          .map((skill) => {
+          .map((skill, index) => {
             return (
-              <div className="skillCard">
+              <div className="skillCard" key={index}>
                 <img src={skill.src} alt={skill.alt} className="skillImage" />
                 <h3>{skill.title}</h3>
               </div>

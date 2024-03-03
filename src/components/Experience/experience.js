@@ -30,11 +30,11 @@ const Experience = () => {
         developed during my enriching three-year professional journey
       </span>
       <div className="experienceSection">
-      {listOfExperience.map((experience) => {
+      {listOfExperience.map((experience,index) => {
         return (
-          <div className="experienceCard">
+          <div className="experienceCard" key={index}>
             <h3>{experience.designation}</h3>
-            <span>{experience.period}</span>
+            <span>{`Infosys Limited (${experience.period})`}</span>
             <p>{experience.description}</p>
           </div>
         );

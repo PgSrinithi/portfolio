@@ -3,6 +3,7 @@ import './about.css';
 import UIDesign from "../../assets/ui-design.png";
 import webdesign from "../../assets/website-design.png";
 import deveopsDesign from "../../assets/devops.png";
+import reports from "../../assets/report.png";
 
 const About = () => {
     const skillSet = [
@@ -18,7 +19,12 @@ const About = () => {
         }, {
             src: deveopsDesign,
             title: "DevOps Engineer",
-            description: "Ensuring streamlined development pipelines and robust infrastructure for optimal software delivery."
+            description: "Ensuring streamlined development pipelines and robust infrastructure for optimal software delivery"
+        },
+        {
+            src: reports,
+            title: "Report Developer",
+            description: "Proficient in OpenXML Word Document and Telerik Report Designer"
         },
     ]
     return (
@@ -26,9 +32,9 @@ const About = () => {
             <span className='aboutTitle'>What I do</span>
             <span className='aboutDescription'>I am a seasoned full-stack developer with expertise in frontend technologies such as HTML, CSS, JavaScript, TypeScript, and ReactJS. On the backend, I have proficiency in .NET Core, leveraging MySQL databases. I have also implemented comprehensive test coverage using Jest for the frontend and NUnit for the backend, ensuring robust and reliable applications. My diverse skill set and hands-on experience contribute to delivering seamless and scalable solutions across the entire development stack.</span><br />
             <span className='aboutBars'>
-                {skillSet.map((skill) => {
+                {skillSet.map((skill,index) => {
                     return (
-                    <span className='aboutBar'>
+                    <span className='aboutBar' key={index}>
                         <img src={skill.src} alt="" className='aboutBarImg' />
                         <div className='aboutBarText'>
                             <h2>{skill.title}</h2>

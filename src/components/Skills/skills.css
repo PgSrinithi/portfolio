@@ -49,6 +49,10 @@
     cursor: pointer;
 }
 
+.seeMoreBtn:hover{
+    opacity: 0.5;
+}
+
 .skillCard > h3{
     text-align: center;
 }
