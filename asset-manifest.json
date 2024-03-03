@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.44fca724.css",
-    "main.js": "/portfolio/static/js/main.11026de8.js",
+    "main.css": "/portfolio/static/css/main.6a4415ac.css",
+    "main.js": "/portfolio/static/js/main.ae503088.js",
+    "static/media/Resume_Srinithi.pdf": "/portfolio/static/media/Resume_Srinithi.60eaf9875351893dd7cb.pdf",
+    "static/media/report.png": "/portfolio/static/media/report.eff2a4c5182f6bdbf45a.png",
     "static/media/devops.png": "/portfolio/static/media/devops.80a44de1f12ea92a92b7.png",
     "static/media/menu.png": "/portfolio/static/media/menu.c84fc7e8ffe26666efd6.png",
     "static/media/ui-design.png": "/portfolio/static/media/ui-design.4ad009b6b718a6fbefaa.png",
     "index.html": "/portfolio/index.html",
-    "main.44fca724.css.map": "/portfolio/static/css/main.44fca724.css.map",
-    "main.11026de8.js.map": "/portfolio/static/js/main.11026de8.js.map"
+    "main.6a4415ac.css.map": "/portfolio/static/css/main.6a4415ac.css.map",
+    "main.ae503088.js.map": "/portfolio/static/js/main.ae503088.js.map"
   },
   "entrypoints": [
-    "static/css/main.44fca724.css",
-    "static/js/main.11026de8.js"
+    "static/css/main.6a4415ac.css",
+    "static/js/main.ae503088.js"
   ]
 }
