@@ -59,8 +59,9 @@
 
 .links{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
+
 
 .link{
     object-fit: cover;
