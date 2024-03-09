@@ -1,9 +1,9 @@
 import React from "react";
 import "./intro.css";
 import download from "../../assets/download.png";
-import resume from "../../assets/Resume_Srinithi.pdf";
+import resume from "../../assets/Srinithi_Resume.pdf";
+
 const Intro = () => {
- 
   return (
     <section id="intro">
       <div className="introContent">
@@ -20,8 +20,8 @@ const Intro = () => {
         </p>
         <a href={resume} download="Srinithi_Resume.pdf">
           <button className="btn">
-            <img src={download} alt="Hire Me" className="btnImg"/>
-           <span>Download CV</span> 
+            <img src={download} alt="Hire Me" className="btnImg" />
+            <span>Download CV</span>
           </button>
         </a>
       </div>
