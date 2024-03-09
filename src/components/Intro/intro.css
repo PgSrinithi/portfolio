@@ -1,69 +1,72 @@
-#intro{
-    width: 100vw;
-    max-width: 75rem;
-    margin: 0 3rem;
-    overflow: hidden;
-    position: relative;
+#intro {
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 3rem;
+  overflow: hidden;
+  position: relative;
 }
 
-.introContent{
-    height: 100vh;
-    width: 100vw;
-    padding: 2rem;
-    font-size: 3rem;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.introContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.hello{
-    font-size: 1.75rem;
-    font-weight: 300;
+.hello {
+  font-size: 1.75rem;
+  font-weight: 300;
 }
 
-.introName{
-    color: #00c2ff;
+.introName {
+  color: #00c2ff;
 }
 
-.introPara{
-    font-size: medium;
-    font-weight: 300;
-    letter-spacing: 1px;
+.introPara {
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
-.btn{
-    background: white;
-    margin: 1rem 0;
-    padding: 0.3rem 1.5rem;
-    border: none;
-    border-radius: 2rem;
-    cursor: pointer;
+.btn {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.3rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
-.btn:hover{
-    opacity: 0.5;
+.btn:hover {
+  opacity: 0.5;
 }
 
 .btn > span {
-    vertical-align: super;
+  vertical-align: middle;
+  padding-left: 0.5rem;
 }
 
-.btnImg{
-    object-fit: cover;
-    padding-top: 0.7rem;
-    padding-left: 0.1rem;
-    height: 1.8rem;
-    width: 1.8rem;
+.btnImg {
+  object-fit: cover;
+
+  padding-left: 0.1rem;
+  height: 1.8rem;
+  width: 1.8rem;
 }
 
-@media screen and (max-width:840px) {
-    .introContent{
-        font-size: 10vw;
-        height: 70vh;
-    }
+@media screen and (max-width: 840px) {
+  .introContent {
+    font-size: 10vw;
+    height: 70vh;
+  }
 
-    .hello{
-        font-size: 4.5vw;
-    }
+  .hello {
+    font-size: 4.5vw;
+  }
 }
